@@ -355,6 +355,7 @@
 		C3F977862311B38F0032776D /* NSString+ObjcRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F977802311B38F0032776D /* NSString+ObjcRuntime.m */; };
 		C3F977872311B38F0032776D /* NSObject+FLEX_Reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F977812311B38F0032776D /* NSObject+FLEX_Reflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3F977882311B38F0032776D /* NSObject+FLEX_Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F977822311B38F0032776D /* NSObject+FLEX_Reflection.m */; };
+		EB73335A27033B6B00443E4D /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73335927033B6B00443E4D /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -723,6 +724,7 @@
 		C3F977802311B38F0032776D /* NSString+ObjcRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ObjcRuntime.m"; sourceTree = "<group>"; };
 		C3F977812311B38F0032776D /* NSObject+FLEX_Reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FLEX_Reflection.h"; sourceTree = "<group>"; };
 		C3F977822311B38F0032776D /* NSObject+FLEX_Reflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FLEX_Reflection.m"; sourceTree = "<group>"; };
+		EB73335927033B6B00443E4D /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -761,6 +763,7 @@
 		3A4C94151B5B20570088C3F2 = {
 			isa = PBXGroup;
 			children = (
+				EB73335927033B6B00443E4D /* Package.swift */,
 				3A4C94211B5B20570088C3F2 /* FLEX */,
 				1C27A8B71F0E5A0400F0D02D /* FLEXTests */,
 				3A4C95451B5B216C0088C3F2 /* Frameworks */,
@@ -1815,6 +1818,7 @@
 				C3F31D402267D883003C991A /* FLEXSubtitleTableViewCell.m in Sources */,
 				C398626D23AD71C1007E6793 /* FLEXRuntimeController.m in Sources */,
 				C36FBFD9230F3B98008D95D5 /* FLEXProtocolBuilder.m in Sources */,
+				EB73335A27033B6B00443E4D /* Package.swift in Sources */,
 				3A4C95431B5B21410088C3F2 /* FLEXNetworkObserver.m in Sources */,
 				779B1EDB1C0C4D7C001F5E49 /* FLEXTableListViewController.m in Sources */,
 				3A4C94E41B5B21410088C3F2 /* FLEXRuntimeUtility.m in Sources */,
@@ -1931,6 +1935,7 @@
 		1C27A8BE1F0E5A0400F0D02D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1948,6 +1953,7 @@
 		1C27A8BF1F0E5A0400F0D02D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
